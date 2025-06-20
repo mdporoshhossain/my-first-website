@@ -59,7 +59,7 @@ console.log( typeof nambar1);
 
 
 
-// tofixed
+// tofixed 0.300000033 = 0.3
 var nambar1 = 0.1;
 var nambar2 = 0.2;
 

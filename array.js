@@ -19,11 +19,25 @@ arrayType3.push(100);
 arrayType3.push(200);
 console.log(arrayType3);
 
+// last array person remuve
 arrayType3.pop();
+console.log(arrayType3);
+
+// first array person remuve
+arrayType3.shift();
 console.log(arrayType3);
 
 
 
 // array add and remove element from the beginning and slice
 
+var arrayshift =['nomen', 'porosh', 'maruf', 'wasif'];
+arrayshift.unshift('Name');
+console.log(arrayshift);
 
+// slice
+
+var arrayshift =['nomen', 'porosh', 'maruf', 'wasif', 'hello'];
+var slicepart = arrayshift.slice(2, 5);
+
+console.log(slicepart);
